@@ -59,6 +59,9 @@ public class WhileLoopFun {
         //loop mistakes and while vs do while loop
         //make an infinite loop happen
 
-
+        while(true)
+        {
+            System.out.print("this is an infinite loop ");
+        }
     }
 }
