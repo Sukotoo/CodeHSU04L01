@@ -25,7 +25,12 @@ public class WhileLoopFun {
 
     public static void main(String[] args) {
         //count to 10
-
+        int myCount = 1;
+        while(myCount <= 10)
+        {
+            System.out.print(myCount + " ");
+            myCount++;
+        }
 
         //what does this code loop do? Do this without running it
         int count = 2;
@@ -35,9 +40,22 @@ public class WhileLoopFun {
         }
         System.out.println();
         //write a loop that counts by 5 until you get to 100
-
+        int countBy5 = 0;
+        while(countBy5 < 100)
+        {
+            countBy5 += 5;
+        }
         //write a loop that counts down from 10 to 1 then prints "Blast off!"
-
+        int countdown = 10;
+        while(countdown > 1)
+        {
+            countdown--;
+            System.out.println(countdown + " ");
+            if(countdown == 1)
+            {
+                System.out.println("Blast off!");
+            }
+        }
         //loop mistakes and while vs do while loop
         //make an infinite loop happen
 
